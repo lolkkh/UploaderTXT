@@ -17,7 +17,7 @@ services:
       - key: OWNER
         sync: 8179328780
       - key: CREDIT
-        sync: @iLuckyRajput
+        sync: 8179328780
       - key: LOG_CHANNEL
         sync: -1003780650154
       #- key: WEBHOOK
