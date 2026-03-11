@@ -1,10 +1,10 @@
 services:
   - type: web
-    name: saini-txt-direct
+    name: UploaderTXT
     plan: free
     env: docker
     dockerfilePath: Dockerfile
-    repo: https://github.com/cyberseller999/Saini-txt-direct
+    repo: https://github.com/LuckyRajputXD/UploaderTXT
     branch: main
     autoDeploy: false
     envVars:
