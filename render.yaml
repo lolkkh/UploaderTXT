@@ -6,20 +6,20 @@ services:
     dockerfilePath: Dockerfile
     repo: https://github.com/LuckyRajputXD/UploaderTXT
     branch: main
-    autoDeploy: true
+    autoDeploy: false
     envVars:
       - key: BOT_TOKEN
-        sync: 8777655489:AAH589fDvYp7VWL_UO3dCAdqVBG4lPrjIEs
+        sync: false
       - key: API_ID
-        sync: 3748059
+        sync: false
       - key: API_HASH
-        sync: f8c9df448f3ba20a900bc2ffc8dae9d5
+        sync: false
       - key: OWNER
-        sync: 8179328780
+        sync: false
       - key: CREDIT
-        sync: 8179328780
+        sync: false
       - key: LOG_CHANNEL
-        sync: -1003780650154
+        sync: false
       #- key: WEBHOOK
         #sync: false
       - key: PORT
